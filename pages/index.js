@@ -49,7 +49,7 @@ const Page = () => {
                 </Heading>
                 <Paragraph>Thomas is a full-stack developer based in Buenos Aires-Argentina, passionate about creating digital services/things that are proposed to him or want. He has a knack for everything related to product launches, from planning and design to solving real-life problems with code. When he's not online, he loves to hang out with his pens and his drawings or making music. Currently his last project was a complete Disney+ Clone. try him!{' '}
                 <NextLink 
-                href="/works/inkdrop">
+                href="/works/disneyplus">
                     <Link>Try</Link>
                     </NextLink>
                     .
