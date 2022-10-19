@@ -47,9 +47,9 @@ const Page = () => {
                 <Heading as="h3" variant="section-title">
                     Work
                 </Heading>
-                <Paragraph>Thomas is a full-stack developer based in Buenos Aires-Argentina, passionate about creating digital services/things that are proposed to him or want. He has a knack for everything related to product launches, from planning and design to solving real-life problems with code. When he's not online, he loves to hang out with his pens and his drawings or making music. Currently his last project was a complete Disney+ Clone. try him!{' '}
+                <Paragraph>Thomas is a full-stack developer based in Buenos Aires-Argentina, passionate about creating digital services/things that are proposed to him or want. He has a knack for everything related to product launches, from planning and design to solving real-life problems with code. When he's not online, he loves to hang out with his pens and his drawings or making music. Currently his last project was a Pokedex. try him!{' '}
                 <NextLink 
-                href="/works/disneyplus">
+                href="/works/pokedex">
                     <Link>Try</Link>
                     </NextLink>
                     .
@@ -76,7 +76,11 @@ const Page = () => {
                     complete high school with an art orientation 🖌!, in the same year I started studying programming for the first time in Nucba.
                 </BioSection>
                 <BioSection>
-                    <BioYear>2019 to present</BioYear>
+                    <BioYear>2022</BioYear>
+                    He began to study a technical degree in programming at the national university of Hurlingham
+                </BioSection>
+                <BioSection>
+                    <BioYear>2022 to present</BioYear>
                     I studied in various places receiving various certificates and worked as a mentor teaching the basics of programming, in addition to helping various open source projects like The Odin Project.
                 </BioSection>
             </Section>

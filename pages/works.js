@@ -21,14 +21,14 @@ const Works = () => (
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section>
+        {/* <Section>
           <WorkGridItem 
           id="disneyplus" 
           title="Disney+ clone" 
           thumbnail={thumbDisney}>
             A Disney+ clone with authentication suport!
           </WorkGridItem>
-        </Section>
+        </Section> */}
         
         <Section>
           <WorkGridItem
