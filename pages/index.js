@@ -69,7 +69,7 @@ const Page = () => {
                 </Heading>
                 <BioSection>
                     <BioYear>Download here!</BioYear>
-                    <Link href="/files/resume.pdf" download />
+                    <Link href="C:\Users\casco\OneDrive\Escritorio\portfolio\PortfolioHomepage\public\Thomas Casco..pdf" download />
                 </BioSection>
             </Section> 
 
