@@ -63,15 +63,6 @@ const Page = () => {
                 </Box>    
             </Section>
 
-            <Section delay={0.2}>
-                <Heading as="h3" variant="section-title">
-                    My resume 
-                </Heading>
-                <BioSection>
-                    <BioYear>Download here!</BioYear>
-                    <a href="C:\Users\casco\OneDrive\Escritorio\portfolio\PortfolioHomepage\public\Thomas Casco..pdf" download></a>
-                </BioSection>
-            </Section> 
 
             <Section delay={0.2}>
                 <Heading as="h3" variant="section-title">
