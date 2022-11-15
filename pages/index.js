@@ -61,6 +61,39 @@ const Page = () => {
                         </Button>    
                     </NextLink>    
                 </Box>    
+            </Section>
+
+            <Section delay={0.2}>
+                <Heading as="h3" variant="section-title">
+                    STACK
+                </Heading>
+                <BioSection>
+                    <BioYear>HTML</BioYear>
+                </BioSection>
+                <BioSection>
+                    <BioYear>CSS</BioYear>
+                </BioSection>
+                <BioSection>
+                    <BioYear>TAILWIND</BioYear>
+                </BioSection>
+                <BioSection>
+                    <BioYear>JS</BioYear>
+                </BioSection>
+                <BioSection>
+                    <BioYear>REACT</BioYear>
+                </BioSection>
+                <BioSection>
+                    <BioYear>NODE</BioYear>
+                </BioSection>
+                <BioSection>
+                    <BioYear>NEXT</BioYear>
+                </BioSection>
+                <BioSection>
+                    <BioYear>GIT</BioYear>
+                </BioSection>
+                <BioSection>
+                    <BioYear>NPM</BioYear>
+                </BioSection>
             </Section> 
 
             <Section delay={0.2}>
