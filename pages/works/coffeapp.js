@@ -30,10 +30,10 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/coffe_03.png" alt="CoffeApp" />
-      <WorkImage src="/images/works/coffe_04.png" alt="CoffeApp" />
-      <WorkImage src="/images/works/coffe_02.png" alt="CoffeApp" />
-      <WorkImage src="/images/works/coffe_01.png" alt="CoffeApp" />
+      <WorkImage src="/images/works/coffe_app_01.jpeg" alt="CoffeApp" />
+      <WorkImage src="/images/works/coffe_app_02.jpeg" alt="CoffeApp" />
+      <WorkImage src="/images/works/coffe_app_03.jpeg" alt="CoffeApp" />
+      <WorkImage src="/images/works/coffe_app_04.jpeg" alt="CoffeApp" />
     </Container>
   </Layout>
 )
