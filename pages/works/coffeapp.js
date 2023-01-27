@@ -5,33 +5,35 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="Disney+ Clone">
+  <Layout title="Coffe App!">
     <Container>
       <Title>
-        Disney+ Clone <Badge>2021-</Badge>
+        Coffe App <Badge>2023-</Badge>
       </Title>
       <P>
-      Disney clone application, with user authentication by google. done with firebase, redux and react js
+      A Coffe app made with kotlin and Jetpack Compose
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://disney-clone-55d72.web.app/">
-          https://disney-clone-55d72.web.app/ <ExternalLinkIcon mx="2px" />
+          <Link href="https://github.com/ThomasCasco/CoffeApp">
+          https://github.com/ThomasCasco/CoffeApp <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>Windows/macOS/Linux/iOS/Android WEB-APP</span>
+          <span>Android</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>React js, Redux, Firebase</span>
+          <span>Kotlin, JetPackCompose, Web View</span>
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/disney-plus-portfolio-02.png" alt="Disney" />
-      <WorkImage src="/images/works/disney-plus-portfolio-03.png" alt="Disney" />
+      <WorkImage src="/images/works/coffe_03" alt="CoffeApp" />
+      <WorkImage src="/images/works/coffe_04" alt="CoffeApp" />
+      <WorkImage src="/images/works/coffe_02" alt="CoffeApp" />
+      <WorkImage src="/images/works/coffe_01" alt="CoffeApp" />
     </Container>
   </Layout>
 )
