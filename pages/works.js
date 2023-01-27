@@ -6,6 +6,7 @@ import { WorkGridItem } from '../components/grid-item'
 import thumbDisney from '../public/images/works/disney-plus-portfolio-01.png'
 import thumbPokedex from '../public/images/works/pokedex-portfolio-01.png'
 import thumbQuizz from '../public/images/works/quizz-app-01.png'
+import thumbCoffe from '../public/images/works/icon_01'
 import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
 import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
 import thumbStyly from '../public/images/works/styly_eyecatch.png'
@@ -21,14 +22,14 @@ const Works = () => (
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        {/* <Section>
+         <Section>
           <WorkGridItem 
-          id="disneyplus" 
-          title="Disney+ clone" 
-          thumbnail={thumbDisney}>
-            A Disney+ clone with authentication suport!
+          id="coffeapp" 
+          title="Coffe App!" 
+          thumbnail={thumbCoffe}>
+            A Coffe App, made with Kotlin And Jetpack Compose!
           </WorkGridItem>
-        </Section> */}
+        </Section>
         
         <Section>
           <WorkGridItem
