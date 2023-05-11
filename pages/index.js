@@ -47,7 +47,7 @@ const Page = () => {
                 <Heading as="h3" variant="section-title">
                     Work
                 </Heading>
-                <Paragraph>Thomas is a full-stack developer based in Buenos Aires, Argentina, who is passionate about creating digital products and services. He has a natural talent for all aspects of product launches, from planning and design to solving real-life problems with code. When he's not working online, he enjoys spending time with his pens and drawings or making music. His most recent project was a Pokedex, so don't hesitate to give him a {' '}
+                <Paragraph>Thomas is a full-stack developer based in Buenos Aires, Argentina, who is passionate about creating digital products and services. He has a natural talent for all aspects of product launches, from planning and design to solving real-life problems with code. When he's not working online, he enjoys spending time with his pens and drawings or making music. His most recent project was a CoffeApp, so don't hesitate to give him a {' '}
                 <NextLink 
                 href="/works/coffeapp">
                     <Link>Try!</Link>
