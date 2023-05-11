@@ -47,10 +47,10 @@ const Page = () => {
                 <Heading as="h3" variant="section-title">
                     Work
                 </Heading>
-                <Paragraph>Thomas is a full-stack developer based in Buenos Aires-Argentina, passionate about creating digital services/things that are proposed to him or want. He has a knack for everything related to product launches, from planning and design to solving real-life problems with code. When he's not online, he loves to hang out with his pens and his drawings or making music. Currently his last project was a Pokedex. try him!{' '}
+                <Paragraph>Thomas is a full-stack developer based in Buenos Aires, Argentina, who is passionate about creating digital products and services. He has a natural talent for all aspects of product launches, from planning and design to solving real-life problems with code. When he's not working online, he enjoys spending time with his pens and drawings or making music. His most recent project was a Pokedex, so don't hesitate to give him a {' '}
                 <NextLink 
-                href="/works/pokedex">
-                    <Link>Try</Link>
+                href="/works/coffeapp">
+                    <Link>Try!</Link>
                     </NextLink>
                     .
                 </Paragraph>
@@ -74,15 +74,15 @@ const Page = () => {
                 </BioSection>
                 <BioSection>
                     <BioYear>2019</BioYear>
-                    complete high school with an art orientation 🖌!, in the same year I started studying programming for the first time in Nucba.
+                    I completed high school with a focus on art 🎨! In that same year, I began studying programming for the first time at Nucba.
                 </BioSection>
                 <BioSection>
                     <BioYear>2022</BioYear>
-                    He began to study a technical degree in programming at the national university of Hurlingham
+                    He started pursuing a technical degree in programming at the National University of Hurlingham.
                 </BioSection>
                 <BioSection>
                     <BioYear>2022 to present</BioYear>
-                    I studied in various places receiving various certificates and worked as a mentor teaching the basics of programming, in addition to helping various open source projects like The Odin Project.
+                    After starting his technical degree in programming at the National University of Hurlingham, he began contributing to online communities such as The Odin Project and Front End Cafe.
                 </BioSection>
             </Section>
 
