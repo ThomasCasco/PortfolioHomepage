@@ -14,7 +14,7 @@ const Page = () => {
         <Layout>
         <Container>
             <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
-                Hello i&apos;m a full-stack developer based in Argentina!
+                Hello i&apos;m a mobile developer based in Argentina!
             </Box>
 
             <Box display={{md:'flex'}}>
@@ -47,7 +47,7 @@ const Page = () => {
                 <Heading as="h3" variant="section-title">
                     Work
                 </Heading>
-                <Paragraph>Thomas is a full-stack developer based in Buenos Aires, Argentina, who is passionate about creating digital products and services. He has a natural talent for all aspects of product launches, from planning and design to solving real-life problems with code. When he's not working online, he enjoys spending time with his pens and drawings or making music. His most recent project was a CoffeApp, so don't hesitate to give him a {' '}
+                <Paragraph>Thomas is a mobile developer based in Buenos Aires, Argentina, who is passionate about creating digital products and services. He has a natural talent for all aspects of product launches, from planning and design to solving real-life problems with code. When he's not working online, he enjoys spending time with his pens and drawings or making music. His most recent project was a CoffeApp, so don't hesitate to give him a {' '}
                 <NextLink 
                 href="/works/coffeapp">
                     <Link>Try!</Link>
@@ -61,6 +61,17 @@ const Page = () => {
                         </Button>    
                     </NextLink>    
                 </Box>    
+            </Section>
+
+            <Section delay={0.2}>
+                <Heading as="h3" variant="section-title">
+                    Work Experience
+                </Heading>
+                <BioSection>
+                    <BioYear>Functional Analyst - IMSA</BioYear>
+                    <BioYear>2023 - Feb</BioYear>
+                    Currently, I hold the position of Functional Analyst at IMSA. In this role, I specialize in analyzing user requirements and translating them into technical specifications, all while maintaining a close collaboration with our development team. 
+                </BioSection>
             </Section>
 
 
@@ -81,8 +92,8 @@ const Page = () => {
                     He started pursuing a technical degree in programming at the National University of Hurlingham.
                 </BioSection>
                 <BioSection>
-                    <BioYear>2022 to present</BioYear>
-                    After starting his technical degree in programming at the National University of Hurlingham, he began contributing to online communities such as The Odin Project and Front End Cafe.
+                    <BioYear>2023 to present</BioYear>
+                    Currently, I hold the position of Functional Analyst at IMSA. In this role, I specialize in analyzing user requirements and translating them into technical specifications
                 </BioSection>
             </Section>
 
